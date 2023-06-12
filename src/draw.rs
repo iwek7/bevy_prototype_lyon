@@ -1,6 +1,6 @@
 //! Types for defining shape color and options.
 
-use bevy::{ecs::prelude::Component, render::color::Color};
+use bevy::{prelude::Component, render::color::Color};
 use lyon_tessellation::{FillOptions, StrokeOptions};
 
 /// Defines the fill options for the lyon tessellator and color of the generated
